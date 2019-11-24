@@ -93,3 +93,6 @@ http://www.crimeflare.org:82
 https://dnsdumpster.com/
 
 nmap --script dns-brute --script-args dns-brute.domain=DOMAIN.COM,dns-brute.threads=100,dns-brute.hostlist=/FULL_PATH/BIG_DIC_LIST.txt -n -p 80,443
+https://github.com/tandihansvin/EthicalHacking/wiki/02.-How-to-find-the-real-IP-behind-cloudflare-%3F-%5Bstudy-case%5D
+https://topic.alibabacloud.com/a/11-ways-to-bypass-cdn-to-find-real-ip_8_8_31062138.html
+google - find ip behind cdn
