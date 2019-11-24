@@ -66,3 +66,30 @@ Server: cloudflare-nginx
 CF-RAY: 385379a323175693-IAD
 
 headers send using dog.py ( recondog)
+
+
+Additional:
+https://securitytrails.com
+https://gf.dev/tests 
+http://whois.domaintools.com/
+https://toolbar.netcraft.com/site_report
+https://www.robtex.com/
+bing.com     ip:127.0.0.1
+https://github.com/guelfoweb/knock
+
+lbd - load balancing detector 0.4 - Checks if a given domain uses load-balancing. Written by Stefan Behte (http://ge.mine.nu)
+dnsmap 0.30 - DNS Network Mapper by pagvac (gnucitizen.org) searching (sub)domains using built-in wordlist
+amass enum --passive -d intellexa.com
+
+https://github.com/subfinder/subfinder
+https://github.com/TheRook/subbrute
+https://github.com/aboul3la/Sublist3r
+https://pentester.land/cheatsheets/2018/11/14/subdomains-enumeration-cheatsheet.html
+
+https://censys.io/domain?q=
+https://securitytrails.com/domain/
+https://viewdns.info
+http://www.crimeflare.org:82
+https://dnsdumpster.com/
+
+nmap --script dns-brute --script-args dns-brute.domain=DOMAIN.COM,dns-brute.threads=100,dns-brute.hostlist=/FULL_PATH/BIG_DIC_LIST.txt -n -p 80,443
